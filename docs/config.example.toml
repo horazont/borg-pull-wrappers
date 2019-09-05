@@ -1,0 +1,13 @@
+[runtime]
+socket_wrapper="/usr/local/bin/borg-socket-connect.sh"
+socket_dir="/var/lib/borg-pull-source/sockets/"
+# used for caches etc.
+home="/var/lib/borg-pull-source/"
+
+[client.luna]
+paths=[
+    "/",
+    "/home",
+    "/var/lib",
+    "/var/www",
+]
